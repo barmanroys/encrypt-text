@@ -1,0 +1,9 @@
+log/**
+**.ipynb
+.ropeproject/*
+**/.ipynb_checkpoints/
+src/__pycache__/gateway.cpython-38.pyc
+**.pyc
+src/*.png
+**.log
+.idea**

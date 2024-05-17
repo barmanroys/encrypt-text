@@ -1,0 +1,4 @@
+uvloop==0.17.0 # Asynchronous loop on the ASGI
+uvicorn==0.23.2 # The server
+python-multipart==0.0.6 # Form input requires multipart support
+fastapi==0.100.1 # The backend framework
