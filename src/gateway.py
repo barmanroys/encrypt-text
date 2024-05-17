@@ -12,6 +12,7 @@ concurrent processing and withstand moderate user traffic.
 
 Author: Barman Roy, Swagato
 """
+import os
 
 from fastapi import Form, FastAPI
 from uvicorn import run
@@ -27,7 +28,7 @@ You will be able to:
 
 * Submit encryption job
 """
-webapp = FastAPI(title='Encryption-Decryption Pipeline',
+webapp = FastAPI(title='Encryption Pipeline',
                  description=DESCRIPTION,
                  contact=dict(name='Barman Roy, Swagato',
                               email='swagatopablo@aol.com'))
